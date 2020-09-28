@@ -7,12 +7,13 @@ public class Task2 {
 
         Player.info();
 
-        while (player1.getStamina() >= 0) {
+        while (player1.getStamina() > 0) {
             player1.run();
         }
-//       player1.run(); //проверка минуса
-//        player1.run();
-//        player1.run();
+       player1.run(); //проверка минуса
+        player1.run();
+        player1.run();
+        System.out.println(player1.getStamina());
         Player.info();
 
         for (int i = 1; i < 8; i++) {
