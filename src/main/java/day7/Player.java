@@ -27,12 +27,11 @@ public class Player {
     }
 
     public void run() {
-        stamina--;
         if (stamina <= MIN_STAMINA) {
-            stamina = 0;
             System.out.println("Выносливость игрока " + name + " упала до 0, игрок уходит с поля");
             countPlayers--;
         }
+        stamina--;
     }
 
     public static void info() {

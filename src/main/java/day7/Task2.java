@@ -7,7 +7,7 @@ public class Task2 {
 
         Player.info();
 
-        while (player1.getStamina() != 0) {
+        while (player1.getStamina() >= 0) {
             player1.run();
         }
 
